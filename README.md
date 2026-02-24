@@ -109,6 +109,7 @@ The seeded database includes a test user for automated evaluation:
 ```json
 {
   "email": "test.user@example.com",
+  "password": "password123",
   "name": "Test User"
 }
 ```

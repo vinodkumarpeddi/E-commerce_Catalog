@@ -21,8 +21,8 @@ A modern, full-stack e-commerce product catalog built with **Next.js**, **Prisma
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd e-commerce-catalog
+   git clone https://github.com/vinodkumarpeddi/E-commerce_Catalog
+   cd E-commerce_Catalog
    ```
 
 2. **Create environment file**

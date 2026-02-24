@@ -88,7 +88,7 @@ CREATE TABLE IF NOT EXISTS "CartItem" (
 
 -- Password is 'password123' hashed with bcrypt (10 rounds)
 INSERT INTO "User" ("id", "name", "email", "image", "password") VALUES
-  ('test-user-001', 'Test User', 'test.user@example.com', 'https://api.dicebear.com/7.x/avataaars/svg?seed=TestUser', '$2a$10$K4YKMwqfT0LZr0B1yZoQ6eKT5j8yGzg1e9w4Z1V5Y0nJ5c8K0MXHK')
+  ('test-user-001', 'Test User', 'test.user@example.com', 'https://api.dicebear.com/7.x/avataaars/svg?seed=TestUser', '$2b$10$8/AlacTsSw9DbTfUxPOIDeFTqD4wygqDsDV7zWF3wb0apDD/6J6s.')
 ON CONFLICT ("email") DO NOTHING;
 
 -- ─── Seed: Products ─────────────────────────────────────────
